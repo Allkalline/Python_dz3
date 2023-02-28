@@ -25,10 +25,10 @@ if word[0] in alph:
         for k,v in rus.items():
             if i in v:
                 res += k
-    print(res)
+    print(f'стоимость введенного слова равна {res} баллов')
 else:
     for i in word:
         for k,v in eng.items():
             if i in v:
                 res += k
-    print(res)
+    print(f'стоимость введенного слова равна {res} баллов')
